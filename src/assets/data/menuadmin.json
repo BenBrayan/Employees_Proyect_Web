@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "route": "Contenido",
+      "name": "CONTENIDO",
+      "type": "sub",
+      "icon": "library_books",
+      "children": [
+        {
+          "route": "Empleados",
+          "name": "Empleados",
+          "type": "link",
+          "icon": "library_books"
+        }
+      ]
+    }
+  ]
+}

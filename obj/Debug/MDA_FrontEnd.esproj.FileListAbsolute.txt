@@ -1,0 +1,14 @@
+C:\Users\ticdesarrollo01\Documents\GitHub\MDA\MDA_FrontEnd\obj\Debug\MDA_FrontEnd.esproj.SuggestedBindingRedirects.cache
+C:\Users\ticdesarrollo01\Documents\GitHub\MDA\MDA_FrontEnd\obj\Debug\MDA_FrontEnd.esproj.CoreCompileInputs.cache
+C:\Users\ticdesarrollo01\Documents\GitHub\MDA PLANTILLA\MDA_FrontEnd\obj\Debug\MDA_FrontEnd.esproj.SuggestedBindingRedirects.cache
+C:\Users\ticdesarrollo01\Documents\GitHub\MDA PLANTILLA\MDA_FrontEnd\obj\Debug\MDA_FrontEnd.esproj.CoreCompileInputs.cache
+C:\Users\ticdesarrollo01\Documents\GitHub\MDA\MDA_FRONT\obj\Debug\MDA_FrontEnd.esproj.SuggestedBindingRedirects.cache
+C:\Users\ticdesarrollo01\Documents\GitHub\MDA\MDA_FRONT\obj\Debug\MDA_FrontEnd.esproj.CoreCompileInputs.cache
+C:\Users\ticdesarrollo04\Documents\GitHub\MDA\MDA_FRONT\obj\Debug\MDA_FrontEnd.esproj.SuggestedBindingRedirects.cache
+C:\Users\ticdesarrollo04\Documents\GitHub\MDA\MDA_FRONT\obj\Debug\MDA_FrontEnd.esproj.CoreCompileInputs.cache
+C:\Users\TICDESARROLLO02\Documents\GitHub\GS_FRONT\obj\Debug\MDA_FrontEnd.esproj.SuggestedBindingRedirects.cache
+C:\Users\TICDESARROLLO02\Documents\GitHub\GS_FRONT\obj\Debug\MDA_FrontEnd.esproj.CoreCompileInputs.cache
+C:\Users\ticdesarrollo04\Documents\GitHub\RGS\GS_FRONT\obj\Debug\MDA_FrontEnd.esproj.SuggestedBindingRedirects.cache
+C:\Users\ticdesarrollo04\Documents\GitHub\RGS\GS_FRONT\obj\Debug\MDA_FrontEnd.esproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\GS_FRONT\obj\Debug\MDA_FrontEnd.esproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\GS_FRONT\obj\Debug\MDA_FrontEnd.esproj.CoreCompileInputs.cache

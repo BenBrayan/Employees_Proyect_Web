@@ -1,0 +1,52 @@
+{
+  "menu": {
+    "home": "home",
+    "design": "Design",
+    "design.colors": "Color System",
+    "design.icons": "Material Icons",
+    "CONTENIDO": "CONTENIDO",
+    "CONTENIDO.Empleados": "Empleados",
+    "sessions": "Sessions",
+    "sessions.403": "403",
+    "sessions.404": "404",
+    "sessions.500": "500",
+    "helpers": "Helpers",
+    "helpers.css-class": "CSS Class",
+    "permissions": "Permissions",
+    "permissions.role-switching": "Role Switching",
+    "permissions.route-guard": "Route Guard",
+    "permissions.test": "Permission Test"
+  },
+  "validations": {
+    "required": "This field is required",
+    "minlength": "Should have atleast {{number}} characters",
+    "maxlength": "This value should be less than {{number}} characters",
+    "min": "This value should be more than {{number}}",
+    "max": "This value should be less than {{number}}",
+    "exist": "The {{value}} has exists",
+    "inconsistent": "Inconsistent with {{value}}",
+    "invalid_email": "Invalid email"
+  },
+  "user": {
+    "profile": "profile",
+    "settings": "settings",
+    "logout": "logout"
+  },
+  "login": {
+    "title": "",
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "please_enter": "Please enter"
+  },
+
+  "paginator": {
+    "items_per_page_label": "Items per page:",
+    "next_page_label": "Next page",
+    "previous_page_label": "Previous page",
+    "first_page_label": "First page",
+    "last_page_label": "Last page",
+    "range_page_label_1": "no record",
+    "range_page_label_2": "{{startIndex}} - {{endIndex}} of {{length}}"
+  }
+}
