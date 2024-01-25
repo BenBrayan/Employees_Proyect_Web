@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  endpoint: 'https://localhost:7175/',
+  endpoint: 'http://localhost:7175/',
   baseUrl: '',
   useHash: false,
   recaptcha: {
