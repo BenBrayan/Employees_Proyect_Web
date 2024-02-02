@@ -62,7 +62,7 @@ export class LoginComponent implements OnInit {
       .login(this.username.value, this.password.value)
       .pipe(filter(authenticated => authenticated))
       .subscribe(
-        () => this.router.navigateByUrl('/'),
+        () => this.router.navigateByUrl('/home'),
         (errorRes: HttpErrorResponse) => {
           if (errorRes.status === 422) {
             const form = this.loginForm;

@@ -102,9 +102,9 @@ export class AdminLayoutComponent implements OnDestroy {
     // Initialize project theme with options
     this.receiveOptions(this.options);
   }
-  ngOnInit(): void {
-    this.router.navigateByUrl('home');
-  }
+  // ngOnInit(): void {
+  //   this.router.navigateByUrl('home');
+  // }
 
   ngOnDestroy() {
     this.layoutChangesSubscription.unsubscribe();

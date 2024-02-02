@@ -17,17 +17,13 @@ const routes: Routes = [
     component: AdminLayoutComponent,
     canActivate: [AuthGuard],
     canActivateChild: [AuthGuard],
+
     children: [
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: '403', component: Error403Component },
-      { path: '404', component: Error404Component },
-      { path: '500', component: Error500Component },
+      { path: 'home', component: HomeComponent },
       {
         path: 'Contenido',
         loadChildren: () => import('./Contenido/Contenido.module').then(m => m.ContenidoModule)
       },
-      { path: 'home', component: HomeComponent },
-
 
     ],
   },
@@ -36,10 +32,8 @@ const routes: Routes = [
     component: AuthLayoutComponent,
     children: [
       { path: 'login', component: LoginComponent },
-
     ],
   },
-  { path: '**', redirectTo: 'home' },
 ];
 
 @NgModule({

@@ -21,8 +21,33 @@ export class EmployeesComponent implements OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
+  employeeList: {id: number, name: string}[] = [
+    {id: 1, name: 'Tiger Nixon'},
+    {id: 2, name: 'Garrett Winters'},
+    {id: 3, name: 'Ashton Cox'},
+    {id: 4, name: 'Cedric Kelly'},
+    {id: 5, name: 'Airi Satou'},
+    {id: 6, name: 'Brielle Williamson'},
+    {id: 7, name: 'Herrod Chandler'},
+    {id: 8, name: 'Rhona Davidson'},
+    {id: 9, name: 'Colleen Hurst'},
+    {id: 10, name: 'Sonya Frost'},
+    {id: 11, name: 'Jena Gaines'},
+    {id: 12, name: 'Quinn Flynn'},
+    {id: 13, name: 'Charde Marshall'},
+    {id: 14, name: 'Haley Kennedy'},
+    {id: 15, name: 'Tatyana Fitzpatrick'},
+    {id: 16, name: 'Michael Silva'},
+    {id: 17, name: 'Paul Byrd'},
+    {id: 18, name: 'Gloria Little'},
+    {id: 19, name: 'Bradley Greer'},
+    {id: 20, name: 'Dai Rios'},
+    {id: 21, name: 'Jenette Caldwell'},
+    {id: 22, name: 'Yuri Berry'},
+    {id: 23, name: 'Caesar Vance'},
+    {id: 24, name: 'Doris Wilder'}
+    ];
 
-  employeeList: Employee[] = [];
   employeesTable: Employee[] = [];
 
   employeId: number = 0;
@@ -35,10 +60,9 @@ export class EmployeesComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.serviceEmployees.GetAllEmployees().subscribe((data: Employee[]) => {
-      this.employeeList = data;
-    });
-
+    // this.serviceEmployees.GetAllEmployees().subscribe((data: Employee[]) => {
+    //   this.employeeList = data;
+    // });
     this.GetAllEmployees();
   }
 
